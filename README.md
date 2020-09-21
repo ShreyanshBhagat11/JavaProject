@@ -1,0 +1,2 @@
+# JavaProject
+Secrete Code Generator
