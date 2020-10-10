@@ -1,5 +1,5 @@
 # JavaProject
-Secrete Code Generator
+*Secrete Code Generator*
 
     Main Goal of our project
 
