@@ -11,8 +11,8 @@ public class Encryption extends JFrame {
     private JRadioButton r1, r2, r3;
     ButtonGroup bg = new ButtonGroup();
 
-    public Encryption() {
-//        this.setLocationRelativeTo(null);
+    public Encryption() 
+    {
         setVisible(true);
         setLayout(null);
         setTitle("Encryption & Decryption");
@@ -51,16 +51,16 @@ public class Encryption extends JFrame {
 
         l.setBounds(350, 20, 350, 40);
         t1.setBounds(40, 160, 965, 160); // t1 setBounds
-        sp1 = new JScrollPane(t1);  // review
-        sp1.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); // review
+        sp1 = new JScrollPane(t1);  
+        sp1.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); 
         sp1.setBounds(40, 160, 980, 158); //scroll panel
         sp1.getViewport().setOpaque(false);
         sp1.setOpaque(false);
         sp1.setBorder(null);
 
         t2.setBounds(40, 388, 965, 158);
-        sp2 = new JScrollPane(t2);  // review
-        sp2.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); // review
+        sp2 = new JScrollPane(t2);  
+        sp2.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); 
         sp2.setBounds(40, 388, 980, 158); //scroll panel
         sp2.getViewport().setOpaque(false);
         sp2.setOpaque(false);
@@ -88,16 +88,8 @@ public class Encryption extends JFrame {
         t2.setWrapStyleWord(true);   // Word Wrapping
         add(l);
         add(back);
-//        add(t1);
         this.add(sp1);
-
-//        sp1.add(t1); // prob
-//        t1.add(sp1);
         t1.setVisible(true);
-//        t1.add(sb1);
-//        add(t2);
-
-//        t2.add(sb2);
         add(encrypt);
         add(decrypt);
         add(r1);
