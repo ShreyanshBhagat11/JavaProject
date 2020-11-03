@@ -28,10 +28,12 @@ public class Encryption extends JFrame {
         l.setForeground(new Color(255, 255, 255));
         t1 = new JTextArea();
         t1.setText("Select any method to encrypt the text and use same method to decrypt it !!");
-
+        t1.setCaretColor(Color.CYAN); // Cursor color change to cyan JTextArea 1
+        
         t1.setForeground(new Color(255, 255, 255, 255));
         t1.setOpaque(false);
         t2 = new JTextArea();
+        t2.setCaretColor(Color.CYAN); // Cursor color change to cyan for JTextArea 2
         t2.setForeground(new Color(255, 255, 255, 255));
         t2.setOpaque(false);
 
