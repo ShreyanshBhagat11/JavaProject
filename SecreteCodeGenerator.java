@@ -21,7 +21,7 @@ public class SecreteCodeGenerator extends JFrame {
     }
     public void createUIComponents()
     {
-        setContentPane(new JLabel(new ImageIcon("D:\\Study Material\\Second Year\\Java Pract\\JavaProject\\src\\cyber-security(PS).jpg")));
+        setContentPane(new JLabel(new ImageIcon(getClass().getClassLoader().getResource("cyber-security(PS).jpg"))));
         setLayout(null);
 
          l1 = new JLabel("Encrypt Text or Decrypt Text");
