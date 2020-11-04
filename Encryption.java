@@ -20,7 +20,7 @@ public class Encryption extends JFrame {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        setContentPane(new JLabel(new ImageIcon("D:\\Study Material\\Second Year\\Java Pract\\JavaProject\\src\\cyber-security(PS).jpg")));
+        setContentPane(new JLabel(new ImageIcon(getClass().getClassLoader().getResource("cyber-security(PS).jpg"))));
         setLayout(null);
 
         panel = new JPanel();
