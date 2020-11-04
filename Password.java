@@ -20,7 +20,7 @@ public class Password extends JFrame {
     }
 
     public void PassMethod() {
-        setContentPane(new JLabel(new ImageIcon("D:\\Study Material\\Second Year\\Java Pract\\JavaProject\\src\\cyber-security(PS).jpg")));
+        setContentPane(new JLabel(new ImageIcon(getClass().getClassLoader().getResource("cyber-security(PS).jpg"))));
         setLayout(null);
         l = new JLabel("Password Generation");
         l.setForeground(new Color(255, 255, 255, 255));
